@@ -20,7 +20,7 @@ function App() {
     setLoading(true);
     const timeId = setTimeout(() => {
       setLoading(false);
-    }, 1200);
+    }, 1500);
 
     const fetchWeather = async () => {
       await getWeatherDataFormatted({ ...location, units }).then((data) => {
