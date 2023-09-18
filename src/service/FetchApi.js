@@ -2,7 +2,7 @@ import { DateTime } from "luxon";
 
 const API_KEY = "eb3e8c9f3a5131c4c0f6e9b79ab0dc23";
 
-const BASE_URL = "http://api.openweathermap.org/data/2.5";
+const BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 const getWeatherData = (infoType, searchParams) => {
   const url = new URL(BASE_URL + "/" + infoType);
@@ -99,6 +99,6 @@ export const timeFormat = (
 ) => DateTime.fromSeconds(secs).toFormat(format);
 
 export const imgCode = (code) =>
-  `http://openweathermap.org/img/wn/${code}@2x.png`;
+  `https://openweathermap.org/img/wn/${code}@2x.png`;
 
 export default getWeatherDataFormatted;
