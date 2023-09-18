@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0278a90.css",
-    "main.js": "/static/js/main.8cfce26d.js",
-    "static/media/snow.jpg": "/static/media/snow.051b7e4cfb227a8b47ce.jpg",
-    "static/media/snow-night.jpg": "/static/media/snow-night.e524a036046554e97fc9.jpg",
-    "static/media/rain-night.webp": "/static/media/rain-night.a80927a5e5b0b1f00c70.webp",
-    "static/media/haze-night.jpg": "/static/media/haze-night.666de0b06b6b5f1d61e8.jpg",
-    "static/media/thunderstorm.jpg": "/static/media/thunderstorm.3bd89378c3b2abad75cf.jpg",
-    "static/media/clouds-night.jpg": "/static/media/clouds-night.50334f5724df6e17d83b.jpg",
-    "static/media/haze.jpg": "/static/media/haze.0c1400c58b66ed982352.jpg",
-    "static/media/rain.jpg": "/static/media/rain.99b2dbcb9ac3ed76c878.jpg",
-    "static/media/clouds.jpg": "/static/media/clouds.644ddcba09439e78fcc4.jpg",
-    "static/media/clear.jpg": "/static/media/clear.fb5bb742030ae8324670.jpg",
-    "static/media/clear-night.jpg": "/static/media/clear-night.1236cad0d3bef886d426.jpg",
-    "index.html": "/index.html",
-    "main.f0278a90.css.map": "/static/css/main.f0278a90.css.map",
-    "main.8cfce26d.js.map": "/static/js/main.8cfce26d.js.map"
+    "main.css": "/Weather-App/static/css/main.f0278a90.css",
+    "main.js": "/Weather-App/static/js/main.5d1ab24c.js",
+    "static/media/snow.jpg": "/Weather-App/static/media/snow.051b7e4cfb227a8b47ce.jpg",
+    "static/media/snow-night.jpg": "/Weather-App/static/media/snow-night.e524a036046554e97fc9.jpg",
+    "static/media/rain-night.webp": "/Weather-App/static/media/rain-night.a80927a5e5b0b1f00c70.webp",
+    "static/media/haze-night.jpg": "/Weather-App/static/media/haze-night.666de0b06b6b5f1d61e8.jpg",
+    "static/media/thunderstorm.jpg": "/Weather-App/static/media/thunderstorm.3bd89378c3b2abad75cf.jpg",
+    "static/media/clouds-night.jpg": "/Weather-App/static/media/clouds-night.50334f5724df6e17d83b.jpg",
+    "static/media/haze.jpg": "/Weather-App/static/media/haze.0c1400c58b66ed982352.jpg",
+    "static/media/rain.jpg": "/Weather-App/static/media/rain.99b2dbcb9ac3ed76c878.jpg",
+    "static/media/clouds.jpg": "/Weather-App/static/media/clouds.644ddcba09439e78fcc4.jpg",
+    "static/media/clear.jpg": "/Weather-App/static/media/clear.fb5bb742030ae8324670.jpg",
+    "static/media/clear-night.jpg": "/Weather-App/static/media/clear-night.1236cad0d3bef886d426.jpg",
+    "index.html": "/Weather-App/index.html",
+    "main.f0278a90.css.map": "/Weather-App/static/css/main.f0278a90.css.map",
+    "main.5d1ab24c.js.map": "/Weather-App/static/js/main.5d1ab24c.js.map"
   },
   "entrypoints": [
     "static/css/main.f0278a90.css",
-    "static/js/main.8cfce26d.js"
+    "static/js/main.5d1ab24c.js"
   ]
 }
