@@ -25,7 +25,6 @@ function App() {
     const fetchWeather = async () => {
       await getWeatherDataFormatted({ ...location, units }).then((data) => {
         setWeather(data);
-        console.log(data);
       });
     };
     fetchWeather();
@@ -44,7 +43,7 @@ function App() {
       >
         <TopNav setLocation={setLocation} />
         <Inputs setLocation={setLocation} setUnits={setUnits} />
-        {weather && (
+        {weather ? (
           <div>
             <TimeLocation weather={weather} />
             <TempratureDetails weather={weather} units={units} />
@@ -58,6 +57,10 @@ function App() {
               weather={weather.daily}
               units={units}
             />
+          </div>
+        ) : (
+          <div className="flex justify-center items-center text-white text-3xl">
+            No Results Were Found
           </div>
         )}
       </div>
