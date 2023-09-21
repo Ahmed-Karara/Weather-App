@@ -10,11 +10,11 @@ const getWeatherData = (infoType, searchParams) => {
   url.search = new URLSearchParams({ ...searchParams, appId: API_KEY });
 
   return fetch(url)
-    .then((res) => res.json())
+    .then((res) => {
+      if (!res.ok) return {};
+      return res.json();
+    })
     .then((data) => {
-      if (!data) {
-        return false;
-      }
       return data;
     });
 };
