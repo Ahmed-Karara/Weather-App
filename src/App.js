@@ -39,7 +39,7 @@ function App() {
     <div>
       {loading && <Loader />}
       <div
-        className="w-full border-none py-5 px-14 h-full bg-cover bg-bottom bg-no-repeat "
+        className="w-full border-none py-5 px-14 bg-cover bg-center h-full bg-no-repeat "
         style={{ backgroundImage: `url(${backGround(weather)})` }}
       >
         <TopNav setLocation={setLocation} />

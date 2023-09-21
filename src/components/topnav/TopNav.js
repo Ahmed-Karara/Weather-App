@@ -15,7 +15,7 @@ const TopNav = ({ setLocation }) => {
         return (
           <button
             key={button.id}
-            className="text-white text-lg font-medium capitalize transition ease-out   hover:text-red-400"
+            className="text-white text-lg font-medium capitalize transition ease-out hover:text-red-500"
             onClick={() => setLocation({ q: button.city })}
           >
             {button.city}

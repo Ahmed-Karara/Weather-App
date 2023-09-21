@@ -30,14 +30,16 @@ export const backGround = (weather) => {
   else if (
     (weather.details === "Haze" ||
       weather.details === "Mist" ||
-      weather.details === "Smoke") &&
+      weather.details === "Smoke" ||
+      weather.details === "Fog") &&
     weather.icon.includes("d")
   )
     return haze;
   else if (
     (weather.details === "Haze" ||
       weather.details === "Mist" ||
-      weather.details === "Smoke") &&
+      weather.details === "Smoke" ||
+      weather.details === "Fog") &&
     weather.icon.includes("n")
   )
     return haze_night;
