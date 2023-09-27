@@ -64,7 +64,7 @@ function App() {
             />
           </div>
         ) : (
-          <div className="flex justify-center h-screen items-start text-white text-2xl">
+          <div className="flex justify-center h-screen items-start mt-40 text-center text-white text-2xl">
             No Results Were Found
           </div>
         )}
