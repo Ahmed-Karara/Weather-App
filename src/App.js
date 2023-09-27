@@ -23,9 +23,14 @@ function App() {
     }, 1500);
 
     const fetchWeather = async () => {
-      await getWeatherDataFormatted({ ...location, units }).then((data) => {
-        setWeather(data);
-      });
+      await getWeatherDataFormatted({ ...location, units })
+        .then((data) => {
+          console.log(data);
+          setWeather(data);
+        })
+        .catch(() => {
+          setWeather(false);
+        });
     };
     fetchWeather();
 
@@ -59,7 +64,7 @@ function App() {
             />
           </div>
         ) : (
-          <div className="flex justify-center items-center text-white text-3xl">
+          <div className="flex justify-center h-screen items-start text-white text-2xl">
             No Results Were Found
           </div>
         )}

@@ -11,7 +11,6 @@ const getWeatherData = (infoType, searchParams) => {
 
   return fetch(url)
     .then((res) => {
-      if (!res.ok) return {};
       return res.json();
     })
     .then((data) => {
