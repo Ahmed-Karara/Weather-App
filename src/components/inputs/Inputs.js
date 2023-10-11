@@ -5,11 +5,6 @@ import { GoLocation } from "react-icons/go";
 const Inputs = ({ setLocation, setUnits }) => {
   const [city, setCity] = useState("");
   const [active, setActive] = useState("celsius");
-  const ref = useRef();
-
-  useEffect(() => {
-    ref.current.focus();
-  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -36,7 +31,6 @@ const Inputs = ({ setLocation, setUnits }) => {
       <form onSubmit={handleSubmit} className="w-80">
         <input
           type="text"
-          ref={ref}
           value={city}
           className="placeholder:lowercase w-full text-black font-light p-1.5 pl-3 shadow-xl focus:outline-none rounded-2xl capitalize"
           placeholder="Search for city..."
