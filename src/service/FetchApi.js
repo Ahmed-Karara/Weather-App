@@ -60,7 +60,7 @@ const weatherForecastFormat = (data) => {
 
   let hourly = list.slice(0, 5).map((h) => {
     return {
-      title: timeFormat(h.dt + timezone - 10800, "hh:mm a"),
+      title: timeFormat(h.dt + timezone - 7200, "hh:mm a"),
       temp: h.main.temp,
       icon: h.weather[0].icon,
       description: h.weather[0].main,
@@ -73,7 +73,7 @@ const weatherForecastFormat = (data) => {
     })
     .map((d) => {
       return {
-        title: timeFormat(d.dt + timezone - 10800, "cccc"),
+        title: timeFormat(d.dt + timezone - 7200, "cccc"),
         temp: d.main.temp,
         icon: d.weather[0].icon,
         description: d.weather[0].main,

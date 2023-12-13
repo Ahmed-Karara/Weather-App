@@ -67,7 +67,7 @@ function TempratureDetails({
             <BsSun className="text-xl" />
             Rise :
             <span className="font-medium ml-1">
-              {timeFormat(sunrise + timezone - 10800, "hh:mm a")}
+              {timeFormat(sunrise + timezone - 7200, "hh:mm a")}
             </span>
           </p>
 
@@ -75,7 +75,7 @@ function TempratureDetails({
             <BsSunset className="text-xl" />
             Set :
             <span className="font-medium ml-1">
-              {timeFormat(sunset + timezone - 10800, "hh:mm a")}
+              {timeFormat(sunset + timezone - 7200, "hh:mm a")}
             </span>
           </p>
         </div>
